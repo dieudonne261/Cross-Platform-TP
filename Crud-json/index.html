@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD JSON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <!-- Le contenu du modal sera généré dynamiquement -->
+        </div>
+    </div>
+    <div id="container">
+        <h1>CRUD Json</h1>
+        <button onclick="openModal('add')">Ajouter</button>
+        <div class="rech">
+            <input type="text" id="search-query" placeholder="Rechercher">
+            <button onclick="searchData()" style="margin:9px;">Rechercher</button>
+        </div>
+        
+
+        <div id="data-list">
+            <!-- Les données seront affichées ici -->
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
